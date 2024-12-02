@@ -41,10 +41,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+
+        <!-- Dependencia para conectar a MySQL -->
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
         </dependency>
+
 
         <!-- Dependencia para pruebas unitarias -->
         <dependency>
@@ -53,15 +57,21 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Dependencia para Mockito, útil para pruebas con mocks -->
+        <!-- Dependencia para Mockito -->
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
             <version>3.7.7</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
