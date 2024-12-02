@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+#searchResults div {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}

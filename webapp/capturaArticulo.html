@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captura de Artículo</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <h1>Captura de Artículo</h1>
+    <form id="formArticulo">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" required>
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" required>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" required>
+
+        <label for="foto">Foto (base64):</label>
+        <input type="text" id="foto" required>
+
+        <button type="button" onclick="registrarArticulo()">Registrar Artículo</button>
+    </form>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <!-- Configuración del recurso de base de datos (JDBC) -->
+    <Resource name="jdbc/mydb"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="root" 
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/tienda_db"
+              maxTotal="20" maxIdle="10" maxWaitMillis="-1"/>
+
+</Context>
